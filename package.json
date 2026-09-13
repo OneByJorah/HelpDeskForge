@@ -1,0 +1,33 @@
+{
+  "name": "helpdeskusto",
+  "version": "1.0.0",
+  "description": "Help desk and customer support ticketing system \u2014 email integration, SLA management, canned responses, and knowledge base with Docker deployment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'ok' && exit 0"
+  },
+  "keywords": [
+    "helpdeskforge",
+    "docker",
+    "self-hosted",
+    "jorahone"
+  ],
+  "author": "OneByJorah <info@jorahone.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OneByJorah/HelpDeskForge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OneByJorah/HelpDeskForge/issues"
+  },
+  "homepage": "https://github.com/OneByJorah/HelpDeskForge#readme",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
