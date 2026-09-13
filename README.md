@@ -2,11 +2,11 @@
 
 > A navy/gold theme for osTicket 1.18.x — client portal and staff panel, installed by one idempotent script. For MSPs and self-hosted helpdesks that want an on-brand osTicket without touching PHP.
 
-[![License](https://img.shields.io/github/license/OneByJorah/oshelpdesk?style=for-the-badge&color=FFB300&labelColor=0a0a09)](https://github.com/OneByJorah/oshelpdesk)
-[![Top Language](https://img.shields.io/github/languages/top/OneByJorah/oshelpdesk?style=for-the-badge&color=FFB300&labelColor=0a0a09)](https://github.com/OneByJorah/oshelpdesk)
-[![Stars](https://img.shields.io/github/stars/OneByJorah/oshelpdesk?style=for-the-badge&color=FFB300&labelColor=0a0a09)](https://github.com/OneByJorah/oshelpdesk/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/OneByJorah/oshelpdesk?style=for-the-badge&color=FFB300&labelColor=0a0a09)](https://github.com/OneByJorah/oshelpdesk/commits)
-[![CI](https://img.shields.io/github/actions/workflow/status/OneByJorah/oshelpdesk/ci.yml?style=for-the-badge&color=FFB300&labelColor=0a0a09)](https://github.com/OneByJorah/oshelpdesk/actions)
+[![License](https://img.shields.io/github/license/OneByJorah/HelpDeskForge?style=for-the-badge&color=FFB300&labelColor=0a0a09)](https://github.com/OneByJorah/HelpDeskForge)
+[![Top Language](https://img.shields.io/github/languages/top/OneByJorah/HelpDeskForge?style=for-the-badge&color=FFB300&labelColor=0a0a09)](https://github.com/OneByJorah/HelpDeskForge)
+[![Stars](https://img.shields.io/github/stars/OneByJorah/HelpDeskForge?style=for-the-badge&color=FFB300&labelColor=0a0a09)](https://github.com/OneByJorah/HelpDeskForge/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/OneByJorah/HelpDeskForge?style=for-the-badge&color=FFB300&labelColor=0a0a09)](https://github.com/OneByJorah/HelpDeskForge/commits)
+[![CI](https://img.shields.io/github/actions/workflow/status/OneByJorah/HelpDeskForge/ci.yml?style=for-the-badge&color=FFB300&labelColor=0a0a09)](https://github.com/OneByJorah/HelpDeskForge/actions)
 
 ![Client portal with the navy/gold theme applied](docs/screenshots/main.viewport.png)
 
@@ -19,7 +19,7 @@ Both surfaces read colors and spacing from one `theme/css/helpdesk-tokens.css`, 
 ## Quick Start
 
 ```bash
-git clone https://github.com/OneByJorah/oshelpdesk.git && cd oshelpdesk
+git clone https://github.com/OneByJorah/HelpDeskForge.git && cd oshelpdesk
 ./deploy.sh /var/www/html   # or omit to clone osTicket v1.18.2 into ./osticket first
 ```
 
@@ -47,7 +47,7 @@ CSS3, vanilla JavaScript, Bash (installer), osTicket 1.18.x.
 
 ## Contributing
 
-Bugs and ideas: [open an issue](https://github.com/OneByJorah/oshelpdesk/issues). See [CONTRIBUTING.md](CONTRIBUTING.md).
+Bugs and ideas: [open an issue](https://github.com/OneByJorah/HelpDeskForge/issues). See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
