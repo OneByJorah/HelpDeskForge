@@ -4,124 +4,53 @@
 
 # oshelpdesk
 
-Navy/gold helpdesk theme for osTicket 1.18.x
+**Navy/gold helpdesk theme for osTicket 1.18.x** — mobile-responsive, dark mode, LDAP-compatible CSS/JS theme.
 
-![License](https://img.shields.io/badge/license-OTHER-brightgreen)
-![Language](https://img.shields.io/badge/language-CSS-blue)
+[![License: Custom](https://img.shields.io/badge/License-Custom-brightgreen)](LICENSE)
+[![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3&logoColor=fff)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![osTicket](https://img.shields.io/badge/osTicket-1.18.x-orange)](https://osticket.com)
+[![Mobile](https://img.shields.io/badge/Mobile-Responsive-brightgreen)]()
+[![Dark Mode](https://img.shields.io/badge/Dark_Mode-Supported-purple)]()
+
 </div>
 
 ---
 
-<p align="center">
-  <img src="docs/assets/screenshot.png" alt="oshelpdesk preview" width="90%">
-</p>
+## What It Does
 
-<br>
-
----
-
-## Features
-
-- **Navy/Gold Theme** — Professional color scheme for helpdesk operators.
-- **Dark Mode** — Easy-on-the-eyes dark theme option.
-- **Mobile Responsive** — Fully responsive design for mobile devices.
-- **LDAP Compatible** — Works with LDAP/Active Directory authentication.
-- **No Backend Changes** — CSS/JS only, no PHP modifications needed.
-- **osTicket 1.18.x** — Tested with osTicket 1.18.x releases.
-- **Custom Agent Panel** — Enhanced operator interface.
-- **Ticket Filters** — Visual ticket status indicators.
+oshelpdesk is a **production-ready CSS/JS theme** for osTicket that transforms the default helpdesk interface into a professional navy/gold branded experience. Drop it into any osTicket 1.18.x installation — no PHP changes needed.
 
 ## Quick Start
 
-1. **Backup your osTicket installation**
-
-2. **Download the theme**
-   ```bash
-   git clone https://github.com/OneByJorah/oshelpdesk.git
-   ```
-
-3. **Copy theme files**
-   ```bash
-   cp -r oshelpdesk/css/* /path/to/osticket/include/client/css/
-   cp -r oshelpdesk/js/* /path/to/osticket/include/client/js/
-   cp -r oshelpdesk/images/* /path/to/osticket/images/
-   ```
-
-4. **Update osTicket configuration**
-   - Edit `include/ost-config.php`
-   - Set `$CFG->style = 'oshelpdesk';`
-
-5. **Clear browser cache and refresh**
-
-## File Structure
-
-```
-oshelpdesk/
-├── css/
-│   ├── oshelpdesk.css       # Main theme stylesheet
-│   ├── dark-mode.css        # Dark mode overrides
-│   └── responsive.css       # Mobile responsive styles
-├── js/
-│   ├── oshelpdesk.js        # Theme JavaScript
-│   └── dark-toggle.js       # Dark mode toggle
-├── images/
-│   ├── logo.png             # Helpdesk logo
-│   └── favicon.ico          # Browser tab icon
-└── README.md
+```bash
+git clone https://github.com/OneByJorah/oshelpdesk.git
+cp -r oshelpdesk/theme/css/* /path/to/osticket/include/client/css/
+cp -r oshelpdesk/theme/js/* /path/to/osticket/include/client/js/
+cp -r oshelpdesk/theme/images/* /path/to/osticket/images/
 ```
 
-## Customization
+Or use the automated installer: `./deploy.sh /path/to/osticket`
 
-### Color Variables
+## Features
 
-Edit `css/oshelpdesk.css` to customize:
-
-```css
-:root {
-    --navy-primary: #1a237e;
-    --navy-secondary: #283593;
-    --gold-primary: #ffb300;
-    --gold-secondary: #ffc107;
-}
-```
-
-### Logo Replacement
-
-Replace `images/logo.png` with your own logo (recommended size: 200x50px).
+- **Navy/Gold Theme** — Professional color scheme
+- **Dark Mode** — Easy-on-the-eyes dark theme
+- **Mobile Responsive** — Fully responsive for tablets and phones
+- **LDAP Compatible** — Works with LDAP/Active Directory
+- **No Backend Changes** — CSS/JS only, zero PHP modifications
+- **One-Click Deploy** — Automated installation script
 
 ## Compatibility
 
 | osTicket Version | Status |
-|------------------|--------|
-| 1.18.x | ✅ Fully supported |
-| 1.17.x | ⚠️ Partial support |
+|-----------------|--------|
+| 1.18.x | ✅ Fully tested |
+| 1.17.x | ⚠️ May need adjustments |
 | 1.16.x | ❌ Not tested |
-
-## Contributing
-
-Contributions are welcome. Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for community standards.
-
-## Security
-
-For security concerns, see [SECURITY.md](SECURITY.md). Please report vulnerabilities to **info@jorahone.com** — do not use public issues.
 
 ## License
 
-MIT © Jhonattan L. Jimenez
-
----
-
-## 🤝 Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md). All contributions follow the [Code of Conduct](CODE_OF_CONDUCT.md).
-
-## 🔒 Security
-
-Found a vulnerability? Please follow our [Security Policy](SECURITY.md) and report privately to `security@jorahone.com`.
-
-## 📄 License
-
-[Other](LICENSE) © Jhonattan L. Jimenez (OneByJorah)
+Custom License — see [LICENSE](LICENSE)
 
 ---
 
